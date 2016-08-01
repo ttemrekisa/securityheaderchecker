@@ -1,0 +1,4 @@
+URL|IS_HTTPS|HTTP_HEADER|RESULT
+http://www.google.com|True|x-xss-protection:1; mode=block
+http://www.google.com|True|x-frame-options:SAMEORIGIN
+http://www.google.com|True|set-cookie:NID=83=bj4ev7qsTIaQyAXKX693I5xkViChnjXiiLPiNm_5BqE4hQbG5pzSHDoNGcPQX5CqGoMYf4r33AmtoFAcbCE637L6f0YEwTq4ptQEeufTqtdsqObTAIVfkpq8SNdTCvD9; expires=Tue, 31-Jan-2017 07:29:29 GMT; path=/; domain=.google.com.tr; HttpOnly|HTTPOnly
